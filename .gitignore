@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+*.class
+*.dex
+*.jar
+*.apk
+*.so
+*.dll
+*.o
+*.obj
+
+# Log files
+*.log
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Android Studio
+*.iml
+.gradle/
+build/
+local.properties
+
+# Idea
+*.ipr
+*.iws
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test
+instrumentTest/
