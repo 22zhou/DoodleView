@@ -194,7 +194,7 @@ public class DoodleView extends View {
      * 抬起
      */
     private void touchUp() {
-        currentPath.lineTo(currentPath.getWidth(), currentPath.getHeight());
+        // 路径已在touchMove中完成绘制
         
         // 保存路径到历史
         DrawPath drawPath = new DrawPath(currentPath, currentColor, strokeWidth, isEraser);
